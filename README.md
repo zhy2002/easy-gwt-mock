@@ -15,7 +15,7 @@ ant -Dgwt.home=/path/to/gwt jar
 ```
 to build the _Easy GWT Mock_ jar. Include the jar from the out directory in your project and add the following line to your application's gwt.xml file:
 ```
-<inherits name='com.google.gwt.testing.easygwtmock.EasyGwtMock'/>
+<inherits name='com.google.gwt.testing.easygwtmock.Easygwtmock'/>
 ```
 That's it! You are ready to use _Easy GWT Mock_.
 
